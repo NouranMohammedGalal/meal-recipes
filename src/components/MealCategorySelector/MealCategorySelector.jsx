@@ -29,6 +29,7 @@ export default function MealCategorySelector() {
       selectedCategory === "All" ? "/" : `/category/${selectedCategory}`
     );
   };
+
   return (
     <>
       <h1 className="text-4xl font-bold bg-gradient-to-r from-primary via-[#ca1023c4] to-[#c90519] bg-clip-text text-transparent">
